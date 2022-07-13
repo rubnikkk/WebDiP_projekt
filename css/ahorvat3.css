@@ -1,0 +1,179 @@
+/*
+F2C57C - zuta
+DDAE7E - krem
+7FB685 - zelena
+426A5A - tamnozelena
+EF6F6C - crvena
+*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+body {
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    height: 100%;
+}
+
+#zaglavlje {
+    background-color: #7FB685;
+    text-align: center;
+    color: #F3F3F3;
+    text-transform: uppercase;
+}
+
+.naslov {
+    font-size: 60px;
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.opis {
+    font-size: 21px;
+}
+
+#navigacija {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #426A5A;
+}
+
+#navigacija li.lijevo {
+    float: left;
+}
+
+#navigacija li.desno {
+    float: right;
+}
+
+#navigacija li a {
+    display: block;
+    color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#navigacija li a:hover {
+    background-color: #F3F3F3;
+    color: #426A5A;
+}
+
+#podnozje {
+    font-size: 12px;
+    background-color: #426A5A;
+    text-align: center;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#podnozje a {
+    color: #F3F3F3;
+}
+
+.validacija{
+    height: 40px;
+    width: 40px;
+}
+
+.trenutna{
+    background-color: #7FB685;
+}
+
+#sadrzaj{
+    color: #426A5A;
+    padding:10px;
+    padding-bottom: 100px;
+}
+
+#sadrzajforme{
+    margin: auto;
+    width: 20%;
+    padding: 30px;
+    align-content: center;
+}
+
+#greske{
+    color: #EF6F6C;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+}
+
+.centar{
+    text-align: center;
+}
+
+.lijevo{
+    text-align: left;
+}
+
+.klikIzbornik{
+    text-decoration: none;
+    color: #7FB685;
+    font-size: 16px;
+}
+
+#prijavljenkor{
+    border-top-color: white;
+    border-top-style: solid;
+    display: block; 
+    background-color: #426A5A;
+    color:white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+}
+
+div.galerija {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+  
+div.galerija:hover {
+border: 1px solid #777;
+}
+
+div.galerija img {
+width: 100%;
+height: auto;
+}
+
+div.opis {
+font-size: 15px;
+padding: 15px;
+text-align: center;
+}
+
+.zadnji {
+    margin-bottom: 10%;
+}
+
+.exists{
+    color: #EF6F6C;
+}
+
+.not-exists{
+    color: #426A5A;
+}
+
+table, th, td {
+    border: 1px solid #426A5A ;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: small;
+}

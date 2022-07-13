@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>Dokumentacija</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Horvat">
+    <meta name="keywords" content="FOI, WebDiP,Projekt 2021./2022., Benzinska postaja">
+    <link rel="stylesheet" href="./css/ahorvat3.css" type="text/css">
+    <meta name="description" content="Projekt benzinska postaja">
+</head>
+
+<body>
+    <header id="zaglavlje">
+        <a class="naslov" href="index.php">Benzinska postaja</a>
+        <br>
+        <a class="opis">WebDiP projekt 2021./2022.</a>
+    </header>
+
+    <nav>
+        <ul id="navigacija">
+            <li class="lijevo"><a href="izbornik.php">Izbornik</a></li>
+            <li class="lijevo"><a class="trenutna" href="dokumentacija.php">Dokumentacija</a></li>
+            <li class="lijevo"><a href="o_autoru.html">O autorici</a></li>
+            <li class="desno"><a href="./registracija.php">Registracija</a></li>
+            <li class="desno"><a href="./prijava.php">Prijava</a></li>
+        </ul>
+    </nav>
+
+    <section class="centar">
+        <div id="sadrzaj">
+            <h1>Dokumentacija</h1>
+        </div>          
+    </section>
+    <section class="zadnji">
+        <div>
+            <div>
+                <h2>Opis projektnog zadatka</h2>
+                <p>
+                    U projektnom zadatku trebalo je izraditi aplikaciju koja predstavlja sustav za upravljanje benzinskom postajom i evidenciju potrošnje goriva. Sustav ima četiri uloge te uloga ovisi o tome čemu korisnik može pristupiti.
+                    Ovisno o ulozi, korisniku su dopuštene različite akcije nad sustavom. U sklopu kolegija Web dizajn i programiranje trebalo je, korištenjem naučenih tehnologija, kreirati prije opisan sustav.
+                </p>
+            </div>
+            <div>
+                <h2>Opis projektnog rješenja</h2>
+                <p>
+                    Kao neregistrirani korisnik može se pregledavati rang lista benzinskih postaja te galerija slika vozila. Nakon što se korsinik registrira dopušteno mu je kreirati, ažurirati i pregledavati vozila, može pretraživati benzinske
+                    postaje i gorivo. Može evidenirati točenje goriva te može pregledavati određene statistike. Moderator ima iste mogućnosti kao neregistrirani korisnik i registrirani, a osim toga može pridruživati vrste goriva za onu
+                    benzinsku postaju za koju je zadužen. Može kreirati mjesta na benzinskoj postaji za koju je zadužen te za to mjesto može odabrati vrstu goriva. Administrator je uloga s najviše prava u sustavu te on može sve što mogu
+                    i ostali korisnici, a osim toga može kreirati lokacije benzinskih postaja te kreirati vrste goriva.
+                </p>
+            </div>
+            <div>
+                <h2>Bitne odrednice projektnog rješenja</h2>
+                <img src="https://drive.google.com/uc?export=view&id=1GpEjbxn24JtqUeWn3B5OHhxVNO_WcL8l" alt="Era model" width="50%" height="70%">
+                <img src="https://drive.google.com/uc?export=view&id=1Vcd-YHwir9Q3CpW2Or8u9UndeXhZW5tZ" alt="Navigacijski" width="50%" height="70%">
+            </div>
+            <div>
+                <h2>Popis i opis skripata, mapa mjesta, navigacijski dijagram</h2>
+                <h3>Skripte</h3>
+                <p>administracijaRacuna.php - služi za administraciju korisničkih računa, može joj pristupiti jedino administrator</p>
+                <p>aktivacija.php - služi za aktivaciju korisnika nakon uspješnog zahtjeva za registraciju</p>
+                <p>cijelaEvidncija.php - prikazuje ukupnu evidenciju točenja goriva</p>
+                <p>dodajGorivoBenzinskoj.php - omogućuje moderatoru dodavanje goriva na benzinsku postaju za koju je zadužen</p>
+                <p>dodajNaMjesto.php - omogućuje moderatoru dodavanje goriva koje je na benzinskoj na određeno mjesto na benzinskoj</p>
+                <p>dokumentacija.html - trenutni dokument, opisuje projektni zadatak i korištene alate i tehnologije</p>
+                <p>dodjelaModeratora.php - služi za dodjeljivanje moderatora benzinskoj postaji</p>
+                <p>evidencijaTocenja.php - evidentira točenje goriva</p>
+                <p>index.php - početna stranica sustava</p>
+                <p>izbrisiLokaciju.php - briše odabranu lokaciju</p>
+                <p>izbrisiMjesto.php - briše odabrano mjesto na benzinskoj</p>
+                <p>izbrisiNaBensinkoj.php - briše određeno gorivo s benzinske postaje</p>
+                <p>izbrisiVrstu.php - briše određenu vrstu goriva</p>
+                <p>galerijaSlika.php - galerija slika</p>
+                <p>izbornik.php - služi za navigaciju kroz sustav ovisno o tome koja je uloga prijavljena</p>
+                <p>kreirajModeratora.php - omogućuje adminu da promovira registriranog korisnika u moderatora</p>
+                <p>kreiranjeLokacijeBenzinskePostaje - skripta koja sadrži obrazac preko kojega se može kreirati benzinska postaja</p>
+                <p>kreiranjeVozila - skripta koja sadrži obrazac preko kojega se može kreirati vozilo</p>
+                <p>kreiranjeMjestaNaBenzinskoj.php - služi moderatoru za kreiranje mjesta</p>
+                <p>kreiranjeVrsteGoriva - skripta koja sadrži obrazac preko kojega se može kreirati vrsta goriva</p>
+                <p>o_autoru - dokument koji sadrzaži informacije o autoru projekta</p>
+                <p>otkljucajKorisnika.php - otključava račun odabranog korisnika</p>
+                <p>otkljucajRacun.php - prikazuje popis zaključanih računa</p>
+                <p>odjava.php - služi za odjavu korisnika iz sustava</p>
+                <p>prijava.php - služi za prijavu korisnika u sustav</p>
+                <p>popisMjesta.php - ispisuje popis svih mjesta na benzinskim postajama</p>
+                <p>popisBensinzkihPostaja.php - prikazuje popis svih benzinskih postaja</p>
+                <p>popisVozila.php - prikazuje popis svih vozila</p>
+                <p>potvrdiPlacenost.php - opmogućuje da se na nekom mjestu koje čeka naplatu potvrdi plaćenost</p>
+                <p>pregledDnevnika.php - služi administratoru za pregled dnevnika</p>
+                <p>pregledajCijene.php - prikazuje cijene goriva na određenoj benzinskoj u određenom razdoblju</p>
+                <p>pregledLokacija.php - prikazuje sve lokacije benzinskih postaja</p>
+                <p>pregledModeratora.php - služi da moderator pregleda postaju za koju je zadužen</p>
+                <p>pregledSvihKorisnika.php - služi adminu kako bi pregledao sve korisnike sustava</p>
+                <p>pregledSvihMjesta.php - prikazuje sva mjesta na benzinskoj postaji</p>
+                <p>pregledVrsta.php - prikazuje sve vrste goriva</p>
+                <p>pregledVrstaModerator.php - služi moderatoru kako bi vidio koje su sve vrste goriva na njegovoj benzinskoj</p>
+                <p>prvjeriKorime.php - skripta za provjeravanje postojanja korisničkog imena ua bazi podataka</p>
+                <p>rangLista.php - popis beninskih postaja prema ukupno natočenom gorivu</p>
+                <p>statistikaVozila.php - ispisuje potrošnju za izabrano vozilo</p>
+                <p>statistikaJednogKorisnika.php - prikazuje akcije jednog korisnika iz dnevnika</p>
+                <p>statistikaTocenjaPremaKorisniku.php - prikazuje točenje goriva jednog korisnika</p>
+                <p>zakljucajRacun.php - služi administratoru za zaključavanje računa</p>
+                <p>registracija.php - služi za registraciju korisnika u sustav</p>
+                <p>urediBenzinkus.php - uređivanje benzinske postaje</p>
+                <p>urediMjesto.php - uređivanje mjesta na benzinskoj</p>
+                <p>urediVozilo.php - uređivanje vozila</p>
+                <p>urediVrstu.php - uređivanje vrste goriva</p>
+                <p>virtualnoVrijeme.php - dohvaća pomak vremena pomoću jsona i zapisuje ga u bazu podataka </p>
+                <p>zaboravljenaLozinka.php - šalje mail (na upisani mail) koji sadrži novu lozinku za prijavu</p>
+                <p>zakljucajKorisnika.php - zaključava račun odabranog korisnika</p>
+                <p>zakljucajRacun.php - prikazuje popis otključanih računa</p>
+                <h3>Mape</h3>
+                <h4>izvorne_datoteke</h4>
+                Mapa sadrži izvorne datoteke kreiranja era modela i navigacijskog dijagrama te datoteku exportanih tablica s lokalne baze podataka.
+                <h4>CSS</h4>
+                <p>ahorvat3.css - datoteka sadrži stilska oblikovanja stranica</p>
+                <p>print.css - sadrži oblikovanje za print</p>
+                <h4>JS</h4>
+                <p>registracijaValidacija.js - datoteka sadrži provjeru registracijske forme na strani klijenta</p>
+                <h4>CLASS</h4>
+                <p>baza.class.php - skripta za rad s bazom koju koristimo na kolegiju</p>
+                <p>funkcijeBaze.php - skripta u kojoj se nalaze funkcije za rad s bazom: provjeriPostojiRedak($upit), unosUpdate($upit),
+                    dohvatiRedakKaoPolje($upit), dohvatiRetke($upit), dohvatiPomakVirtualnogVremena() i virtualnoVrijeme()
+                </p>
+                <h4>Materijali</h4>
+                <p>Sadrži ikone za HTML i CSS validatore</p>
+
+            </div>
+            <div>
+                <h2>Popis i opis korištenih tehnologija i alata</h2>
+                <p>
+                    Za izradu projekta korišten je Visual Studio Code (programski kod), MySQL Workbench (kreiranje ERA modela), draw.io (za kreiranje navigacijskog dijagrama), FileZilla (za prebacivanje datoteka na poslužitelj).
+                </p>
+            </div>
+            <div>
+                <h2>Popis i opis vanjskih (tuđih) modula/biblioteka i njihovo korištenje u skriptama</h2>
+                <p>https://www.google.com/recaptcha/api.js - biblioteka za uključivanje provjere kontrolnog niza znakova za sprječavanje automata</p>
+                <p>http://barka.foi.hr/WebDiP/pomak_vremena/pomak.php?format=json - skripta za generiranje pomaka virtualnog vremena</p>
+                <p>http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js - ajax</p>
+            </div>
+        </div>     
+    </section>
+
+    <div class="zadnji">
+        .
+    </div>
+
+    <footer id="podnozje">
+        <a href=""></a>
+        <a href=""></a>
+        <a href="https://validator.w3.org/check?uri=" target="_blank"><img class="validacija" src="./materijali/HTML5.png" alt="HTML5 validacija"></a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=" target="_blank"> <img class="validacija" src="./materijali/CSS3.png" alt="CSS3 validacija"></a>
+        <address>
+            <a href="mailto:ahorvat3@foi.hr">Kontakt: pošalji mali</a>
+        </address>
+        <a>&copy; 2022 Ana Horvat</a>
+    </footer>
+</body>
+
+</html>
